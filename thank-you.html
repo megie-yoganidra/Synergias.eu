@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You | Synergias</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --e:  #284139;
+  --k:  #F8D794;
+  --ea: #B86819;
+  --c:  #F3F0E8;
+  --serif: 'Cormorant Garamond', serif;
+  --sans:  'Jost', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--sans);
+  background: var(--e);
+  color: var(--c);
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 64px;
+}
+
+.logo {
+  height: 160px;
+  width: auto;
+  margin-bottom: 52px;
+  filter: brightness(1.4);
+}
+
+.rule {
+  width: 40px;
+  height: .5px;
+  background: var(--k);
+  opacity: .4;
+  margin: 0 auto 48px;
+}
+
+.message {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 300;
+  color: rgba(243,240,232,.65);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.sign {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 300;
+  color: var(--k);
+  opacity: .9;
+  margin-bottom: 64px;
+}
+
+.back {
+  display: inline-block;
+  font-size: 9px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: rgba(243,240,232,.35);
+  text-decoration: none;
+  font-weight: 300;
+  border-bottom: 0.5px solid rgba(243,240,232,.15);
+  padding-bottom: 4px;
+  transition: color .2s, border-color .2s;
+}
+
+.back:hover {
+  color: rgba(243,240,232,.7);
+  border-color: rgba(243,240,232,.4);
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <img src="logo-yellow.png" alt="Synergias" class="logo">
+  <div class="rule"></div>
+  <p class="message">Thank you for your message.<br>You will hear from me shortly.</p>
+  <p class="sign">Megie</p>
+  <a href="https://synergias.eu" class="back">Back to Synergias</a>
+</div>
+</body>
+</html>
